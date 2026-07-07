@@ -31,7 +31,7 @@ jobs:
       - name: 5. Executar a Collection e gerar relatório
         run: |
           mkdir -p newman-relatorios
-          newman run collections/sua-collection.json \
+          newman run serverest.postman_collection.json \
             -e serverest_env.postman_environment.json\
             -r htmlextra \
             --reporter-htmlextra-export newman-relatorios/relatorio.html
