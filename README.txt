@@ -1,0 +1,1 @@
+newman run serverest.postman_collection.json -e serverest_env.postman_environment.json -r htmlextra
